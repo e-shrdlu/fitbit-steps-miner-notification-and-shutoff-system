@@ -127,7 +127,7 @@ def main():
             if send_updates:
                 text(str(steps) + ' steps. ' + str(steps_left) + ' steps left until 10,000')
 
-            if steps_left < 100:
+            if steps_left < 6566:
                 print('\a')
                 text('approaching 10,000')
                 set_servo_pos(180)
